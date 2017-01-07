@@ -1,6 +1,6 @@
 $(function() {
     function doAction() {
-        var id = <MYACG_ID_HERE>;
+        var id = '<MYACG_ID_HERE>';
         var page = 'https://www.myacg.com.tw/goods_detail.php?gid=' + id;
         var order = 'https://www.myacg.com.tw/order_pay.php?gid=' + id + '&buy_amount=1';
         var pay = 'https://www.myacg.com.tw/order_pay_detail.php'
