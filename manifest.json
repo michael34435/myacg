@@ -1,0 +1,11 @@
+ {
+    "name": "買動漫客製",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "買動漫自動點擊腳本",
+    "content_scripts": [{
+        "matches": ["http://www.myacg.com.tw/*", "https://www.myacg.com.tw/*"],
+        "js": ["jquery.js", "background.js"]
+    }],
+    "permissions": ["http://www.myacg.com.tw/*", "https://www.myacg.com.tw/*", "background", "tabs"]
+ }
