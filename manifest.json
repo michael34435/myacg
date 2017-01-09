@@ -5,7 +5,7 @@
     "description": "買動漫自動點擊腳本",
     "content_scripts": [{
         "matches": ["http://www.myacg.com.tw/*", "https://www.myacg.com.tw/*"],
-        "js": ["jquery.js", "background.js"]
+        "js": ["jquery.js", "content.js"]
     }],
     "permissions": ["http://www.myacg.com.tw/*", "https://www.myacg.com.tw/*", "background", "tabs"]
  }
